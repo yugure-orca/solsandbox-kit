@@ -1,0 +1,31 @@
+{
+  "name": "solsandbox-kit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yugure-orca/solsandbox-kit.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yugure-orca/solsandbox-kit/issues"
+  },
+  "homepage": "https://github.com/yugure-orca/solsandbox-kit#readme",
+  "dependencies": {
+    "@orca-so/whirlpools": "^3.0.0",
+    "@orca-so/whirlpools-client": "^3.0.0",
+    "@solana-program/token": "^0.5.1",
+    "@solana/kit": "2.1.0",
+    "fastestsmallesttextencoderdecoder": "^1.0.22",
+    "typescript": "^5.9.2",
+    "ws": "^8.18.3"
+  },
+  "devDependencies": {
+    "@types/node": "^24.2.0"
+  }
+}

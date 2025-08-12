@@ -1,0 +1,13 @@
+{
+  "include": ["./src/*.ts"],
+  "compilerOptions": {
+    "typeRoots": ["./node_modules/@types"],
+    "lib": ["es2021", "DOM"],
+    "module": "esnext",
+    "target": "esnext",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "node",
+    "allowJs": true
+  }
+}
